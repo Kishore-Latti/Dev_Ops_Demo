@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercury_Tours_Booking" duration-ms="52888" started-at="2018-03-06T10:54:04Z" finished-at="2018-03-06T10:54:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52888" started-at="2018-03-06T10:54:04Z" finished-at="2018-03-06T10:54:57Z">
+      <class name="com.mindtree.main.Book_Ticket1">
+        <test-method status="PASS" signature="launchPage()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="launchPage" is-config="true" duration-ms="29411" started-at="2018-03-06T10:54:04Z" finished-at="2018-03-06T10:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPage -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="takeScreenshot" is-config="true" duration-ms="457" started-at="2018-03-06T10:54:34Z" finished-at="2018-03-06T10:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="loginPage" duration-ms="2341" started-at="2018-03-06T10:54:34Z" finished-at="2018-03-06T10:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="takeScreenshot" is-config="true" duration-ms="391" started-at="2018-03-06T10:54:36Z" finished-at="2018-03-06T10:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="findFlights()[pri:1, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="findFlights" duration-ms="8738" started-at="2018-03-06T10:54:37Z" finished-at="2018-03-06T10:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlights -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="takeScreenshot" is-config="true" duration-ms="376" started-at="2018-03-06T10:54:45Z" finished-at="2018-03-06T10:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="selectFlightPage()[pri:2, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="selectFlightPage" duration-ms="4669" started-at="2018-03-06T10:54:46Z" finished-at="2018-03-06T10:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightPage -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="takeScreenshot" is-config="true" duration-ms="372" started-at="2018-03-06T10:54:51Z" finished-at="2018-03-06T10:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="summaryPage()[pri:3, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="summaryPage" duration-ms="5627" started-at="2018-03-06T10:54:51Z" finished-at="2018-03-06T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summaryPage -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="takeScreenshot" is-config="true" duration-ms="341" started-at="2018-03-06T10:54:57Z" finished-at="2018-03-06T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="confirmationPage()[pri:4, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="confirmationPage" duration-ms="107" started-at="2018-03-06T10:54:57Z" finished-at="2018-03-06T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationPage -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="test1" is-config="true" duration-ms="0" started-at="2018-03-06T10:54:57Z" finished-at="2018-03-06T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="triggerMail()[pri:0, instance:com.mindtree.main.Book_Ticket1@c81cdd1]" name="triggerMail" is-config="true" duration-ms="21171" started-at="2018-03-06T10:54:57Z" finished-at="2018-03-06T10:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triggerMail -->
+      </class> <!-- com.mindtree.main.Book_Ticket1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Mercury_Tours_Booking -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury_Tours_Booking">
+	<parameter name="pdfngreport-properties" value="D:\\Selenium_Edureka\\PDF_Emailing_Jars\\pdfngreport.properties" />
+	<listeners>
+		<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.mindtree.main.Book_Ticket1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Mercury_Tours_Booking -->
