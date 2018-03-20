@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128761" started-at="2018-03-07T06:57:26Z" finished-at="2018-03-07T06:59:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128761" started-at="2018-03-07T06:57:26Z" finished-at="2018-03-07T06:59:35Z">
+      <class name="tests.FBLogin_DataProvider">
+        <test-method status="PASS" signature="loginfacebook(java.lang.String, java.lang.String)[pri:0, instance:tests.FBLogin_DataProvider@11438d26]" name="loginfacebook" duration-ms="61508" started-at="2018-03-07T06:57:27Z" data-provider="testdataset" finished-at="2018-03-07T06:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kishan.03592@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sainikschool]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfacebook -->
+        <test-method status="PASS" signature="loginfacebook(java.lang.String, java.lang.String)[pri:0, instance:tests.FBLogin_DataProvider@11438d26]" name="loginfacebook" duration-ms="66612" started-at="2018-03-07T06:58:28Z" data-provider="testdataset" finished-at="2018-03-07T06:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kishan.03592@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sainik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfacebook -->
+      </class> <!-- tests.FBLogin_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
