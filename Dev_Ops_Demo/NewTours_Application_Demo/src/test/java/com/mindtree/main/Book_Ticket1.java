@@ -50,6 +50,7 @@ public class Book_Ticket1 extends Book_Ticket {
 			element = flightPage.from_Month;
 			oSelect = new Select(element);
 			oSelect.selectByVisibleText("March");
+			
 			element = flightPage.from_Day;
 			oSelect = new Select(element);
 			oSelect.selectByVisibleText("13");

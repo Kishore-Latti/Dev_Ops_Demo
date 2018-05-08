@@ -118,23 +118,64 @@ public class Test_Steps {
 	@When("^User enters \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_enters_and(String arg1, String arg2) throws Exception {
 		// Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.id("log")).clear();
-		driver.findElement(By.id("log")).sendKeys(arg1);
-		driver.findElement(By.id("pwd")).clear();
-		driver.findElement(By.id("pwd")).sendKeys(arg2);
+		driver.findElement(By.name("log")).clear();
+		driver.findElement(By.name("log")).sendKeys(arg1);
+		driver.findElement(By.name("pwd")).clear();
+		driver.findElement(By.name("pwd")).sendKeys(arg2);
 		driver.findElement(By.id("login")).click();
 		Thread.sleep(3000);
-		
+
 	}
 
+	@SuppressWarnings("deprecation")
 	@Then("^Message displayed Login Successfully$")
 	public void message_displayed_Login_Successfully() throws Exception {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println(driver.getTitle());
-		if ( driver.getTitle().equals("Your Account | ONLINE STORE"))
-		System.out.println("Login Successfully");
-		else
-			System.out.println("failed");
+		if (driver.findElement(By.xpath(".//*[@id='account_logout']/a")).isDisplayed())
+			System.out.println("Login Successfully");
+		else {
+			System.out.println(" Login Failed");
+			Assert.fail();
+		}
+	}
+
+	@When("^User enters Creds to LogIn$")
+	public void user_enters_testusers_and_Test(List<Credentials> usercredentials) throws Throwable {
+
+		// Write the code to handle Data Table
+		for (Credentials credentials : usercredentials) {
+			driver.findElement(By.name("log")).clear();
+			driver.findElement(By.id("log")).sendKeys(credentials.getUsername());
+			driver.findElement(By.name("pwd")).clear();
+			driver.findElement(By.id("pwd")).sendKeys(credentials.getPassword());
+			driver.findElement(By.id("login")).click();
+		}
+	}
+
+	@When("^User enters Credis to LogIn$")
+	public void user_enters_testuser_and_Test(DataTable usercredentials) throws Throwable {
+
+		// Write the code to handle Data Table
+		List<Map<String, String>> data = usercredentials.asMaps(String.class, String.class);
+		driver.findElement(By.id("log")).sendKeys(data.get(0).get("Username"));
+		driver.findElement(By.id("pwd")).sendKeys(data.get(0).get("Password"));
+		driver.findElement(By.id("login")).click();
+	}
+
+	@When("^User enters Cred to LogIn$")
+	public void user_enters_testuser__and_Test(DataTable usercredentials) throws Throwable {
+
+		// Write the code to handle Data Table
+		List<List<String>> data = usercredentials.raw();
+
+		// This is to get the first data of the set (First Row + First Column)
+		driver.findElement(By.id("log")).sendKeys(data.get(0).get(0));
+
+		// This is to get the first data of the set (First Row + Second Column)
+		driver.findElement(By.id("pwd")).sendKeys(data.get(0).get(1));
+
+		driver.findElement(By.id("login")).click();
 	}
 
 	@When("^User LogOut from the Application$")
@@ -148,4 +189,11 @@ public class Test_Steps {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("LogOut Successfully");
 	}
+
+	@Then("^I close the browser$")
+	public void i_close_the_browser() throws Exception {
+		// Write code here that turns the phrase above into concrete actions
+		driver.close();
+	}
+
 }

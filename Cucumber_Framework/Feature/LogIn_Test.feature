@@ -9,7 +9,7 @@ Scenario: Successful Registration
 	
 Scenario: Successful Login 
 	When User tries to LogIn 
-#    When User enters Credentials to LogIn
+    #When User enters Credentials to LogIn
 	And User enters "Kishan_03592" and "Test@123" 
 	Then Message displayed Login Successfully
 	When User LogOut from the Application 
