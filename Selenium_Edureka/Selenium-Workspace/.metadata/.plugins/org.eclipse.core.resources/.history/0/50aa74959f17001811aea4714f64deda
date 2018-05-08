@@ -1,0 +1,51 @@
+package com.mindtree.testng;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class NewTest {
+
+	WebDriver driver;
+	LaunchBrowser launch = new LaunchBrowser();
+
+	
+
+	@BeforeSuite
+	public void launchPage() {
+		launch.launchpage("chrome", "http://www.paytm.com");
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver = launch.getDriver();
+	}
+
+	@Test
+	public void bookTicket() {
+		driver.findElement(By.linkText("Bus ")).click();
+		driver.findElement(By.id("text-box")).sendKeys("Bengaluru");
+		Actions aBuilder = new Actions(driver);
+		Action act = aBuilder.sendKeys(Keys.SHIFT).build();
+		act.perform();
+		// JavascriptExecutor executor = (JavascriptExecutor) driver;
+		// executor.executeScript("window.document.('txtOnwardCalendar').setAttribute('value','27-Mar-2014')");
+		driver.findElement(
+				By.xpath("//div[@class='fl-input-container _9KqY']/span[@class='fl-input-bar']"))
+				.sendKeys("27/02/2018");
+	}
+
+}

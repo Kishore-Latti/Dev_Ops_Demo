@@ -1,0 +1,49 @@
+package com.mindtree.testng;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class NewTest {
+	
+static WebDriver driver ;
+LaunchBrowser launch = new LaunchBrowser();
+
+@BeforeClass
+ public void getDriver()
+ {
+	driver = launch.getDriver();
+ }
+  
+  
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

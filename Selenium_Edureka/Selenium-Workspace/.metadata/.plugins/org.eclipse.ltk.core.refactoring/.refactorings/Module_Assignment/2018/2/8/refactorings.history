@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LaunchBrowser.java&apos; to &apos;TestNG_Demo/src/com.mindtree.testng&apos;&#x0D;&#x0A;- Original project: &apos;Module_Assignment&apos;&#x0D;&#x0A;- Destination element: &apos;TestNG_Demo/src/com.mindtree.testng&apos;&#x0D;&#x0A;- Original element: &apos;com.mindtree.launch.LaunchBrowser.java&apos;" description="Copy compilation unit" destination="=TestNG_Demo/src&lt;com.mindtree.testng" element1="/src&lt;com.mindtree.launch{LaunchBrowser.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1519281222268" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.mindtree.com.mindtree.testng&apos; to &apos;com.mindtree.testng&apos;&#x0D;&#x0A;- Original project: &apos;TestNG_Demo&apos;&#x0D;&#x0A;- Original element: &apos;TestNG_Demo/src/com.mindtree.com.mindtree.testng&apos;&#x0D;&#x0A;- Renamed element: &apos;TestNG_Demo/src/com.mindtree.testng&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.mindtree.com.mindtree.testng&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.mindtree.com.mindtree.testng" name="com.mindtree.testng" qualified="false" references="true" stamp="1519279895688" textual="false" version="1.0"/>
+</session>

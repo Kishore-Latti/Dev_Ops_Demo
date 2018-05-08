@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20769" started-at="2018-02-26T08:44:11Z" finished-at="2018-02-26T08:44:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20769" started-at="2018-02-26T08:44:11Z" finished-at="2018-02-26T08:44:31Z">
+      <class name="module.two.ass.LaunchGoogle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module.two.ass.LaunchGoogle@4439f31e]" name="setUp" is-config="true" duration-ms="4753" started-at="2018-02-26T14:14:11Z" finished-at="2018-02-26T14:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLaunchGoogle()[pri:0, instance:module.two.ass.LaunchGoogle@4439f31e]" name="testLaunchGoogle" duration-ms="15576" started-at="2018-02-26T14:14:15Z" finished-at="2018-02-26T14:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:module.two.ass.LaunchGoogle@4439f31e]" name="tearDown" is-config="true" duration-ms="440" started-at="2018-02-26T14:14:31Z" finished-at="2018-02-26T14:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- module.two.ass.LaunchGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

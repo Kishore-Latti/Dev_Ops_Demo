@@ -1,0 +1,21 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_favorite_static_members=org.testng.Assert.*;org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.thoughtworks.selenium.Selenium"><rhs name\="com.thoughtworks.selenium.DefaultSelenium"/></lhs><lhs name\="com.thoughtworks.selenium.DefaultSelenium"><rhs name\="com.thoughtworks.selenium.DefaultSelenium"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.awt.Desktop$Action"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="org.openqa.selenium.Keys"/></lhs><lhs name\="com.faceboook.link.test.Facebook_Link_Test"><rhs name\="com.faceboook.link.test.Facebook_Link_Test"/></lhs><lhs name\="module.one.ass.Test_Ass"><rhs name\="module.one.ass.Test_Ass"/></lhs><lhs name\="demo1.Methods"><rhs name\="demo1.Methods"/></lhs><lhs name\="com.mindtree.launcher.Launch_Browser"><rhs name\="com.mindtree.launcher.Launch_Browser"/></lhs><lhs name\="com.mindtree.email.Email_Sender"><rhs name\="com.mindtree.email.Email_Sender"/></lhs><lhs name\="com.mindtree.email.Email_Conf"><rhs name\="com.mindtree.email.Email_Conf"/></lhs><lhs name\="tests.Facebook_Login"><rhs name\="tests.Facebook_Login"/></lhs><lhs name\="tests.FBLogin_DataProvider"><rhs name\="tests.FBLogin_DataProvider"/></lhs><lhs name\="module.two.Constructor_Inti"><rhs name\="module.two.Constructor_Inti"/></lhs><lhs name\="org.openqa.selenium.SearchContext"><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="org.openqa.selenium.WebDriver"><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="exceutionEngine.DriverScript"><rhs name\="exceutionEngine.DriverScript"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,83 @@
+package com.mindtree.launch;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+public class LaunchBrowser {
+	WebDriver driver;
+	public void launchpage(String browser , String url )
+	{
+		if (browser=="chrome")
+		{
+			System.setProperty("webdriver.chrome.driver","D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			//driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+
+
+		}
+		else if (browser=="firefox")
+		{
+			System.setProperty("webdriver.gecko.driver", "D:\\Selenium_Edureka\\Browser-Drivers\\geckodriver.exe");
+			/*DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			Proxy proxy = new Proxy();
+			proxy.setHttpProxy("172.22.218.218:8085");
+			capabilities.setCapability(CapabilityType.PROXY, proxy);
+			driver = new FirefoxDriver(capabilities); */
+
+			driver = new FirefoxDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+
+
+		}
+		else if (browser=="ie")
+		{
+			System.setProperty("webdriver.ie.driver","D:\\Selenium_Edureka\\Browser-Drivers\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+
+		}
+     LaunchBrowser lau = new LaunchBrowser();
+     lau.logToGmail();
+
+	}
+	
+	public void logToGmail()
+	{
+		driver.findElement(By.linkText("Gmail")).click();
+		//
+		driver.findElement(By.id("identifierId")).click();
+		driver.findElement(By.id("identifierId")).sendKeys("kishan.03592@gmail.com");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LaunchBrowser launch = new LaunchBrowser();
+		launch.launchpage("chrome","https://www.google.com");
+	}
+
+}

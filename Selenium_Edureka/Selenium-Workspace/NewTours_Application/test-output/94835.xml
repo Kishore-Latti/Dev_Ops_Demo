@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReportData>
+    <ReportTitle>Report Title Here</ReportTitle>
+    <ReportLocation>D:/Selenium_Edureka/Selenium-Workspace/NewTours_Application/test-output</ReportLocation>
+    <LogoFile>D:/Selenium_Edureka/PDF_Emailing_Jars/Mercury.png</LogoFile>
+    <Logo>show</Logo>
+    <LogoAlign>right</LogoAlign>
+    <TitleAlign>left</TitleAlign>
+    <ExceptionIcon>data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAMFBMVEUAAACRmqinrrn09fb////e4eVlcYW9wst7hpbIzNPp6+6cpLCyuMJwe43T19yGkJ+EVVSlAAAAAXRSTlMAQObYZgAAAnxJREFUeNrtl79rFEEUx2cmyWbPH2RzgoEQyCX+AwqpxUJI6ZWpZP0LkhQ2irCVCIKktzmsgld4lSSFcNqKYbFKE60UG/UuEIi5bM4L4x6zu/PevJlYzhfuZmd257Nv5u28ecOYl5eXl5cXXfUlwwOT+O0bS2x2D31CoHenRu+vNy8AuHf+d+QOmOqd/w+bzoBFWRy6AoJIljx2BPCoWFoDnuQX+46ANL/I3AC8l18NIyeAcqvhBFBWQd0FECivFbEDYEKt3HQAPFYrOw6AhoOhqi7/VGvZi21bwFkxFL39YTuE98Xqgu0cXE1kRFj4IKPBcWoJ4LJYbZ08lFeRJeD7eD39W0nrloCOXEUtxk5kw8DOC6Ivy6+j37J05FnPxgJeKLBJAACb1aY5G0CocVqWWAACXWN8UcADC8CWrrFGd2PuRMa+jN0IOVLQjWXXyUO4pQdcowLCjh4wSIiAzLhVGQAzEKBPBDRsoo+m7Qq4E/IuCbAG72NPSYAEBoSULzFU88LbKQsWFUfe75otEKU9cQKf3yrgtVrZjYPnar0NxS5FK1hKNXxntGAa68/4hhHwCc++D4yACAdwkxtnPuKAwd4z3IKB6QTSMQxh3gR4hQOCyAQoZ95Cn1+PTwx5fgA+IYD8mpXzAwZk3gLffdJqgAswN/LPpS/3zQiwXPLTr2PYghrlKLmFDGFeM+UB7kgB5df6eFDNvAW+tsvxoLpcCn0m75DO06ddyIKI1L/4UmHOQfD0owDYoAGm6Ydvgv4vIKX1ycC1UOuTAL+/QRZs0yx4BA7hKKH0D5vwJN5tmftfWkHiwelLvtPGeg/bf+I15uXl5eXl5eWF6S9mH28TuPwq2wAAAABJRU5ErkJggg==</ExceptionIcon>
+    <Table>
+        <ColumnHeaders>
+            <ColumnHeader>
+                <Name>Passed</Name>
+                <ColorCode>#5BC0DE</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Skipped</Name>
+                <ColorCode>#5BC0DE</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Failed</Name>
+                <ColorCode>#5BC0DE</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Percent</Name>
+                <ColorCode>#5BC0DE</ColorCode>
+            </ColumnHeader>
+        </ColumnHeaders>
+        <Rows>
+            <Row>
+                <RowMeta>
+                    <PASSED>2</PASSED>
+                    <FAILED>3</FAILED>
+                    <SKIPPED>0</SKIPPED>
+                    <PERCENTAGE>40.0%</PERCENTAGE>
+                    <TableName>Statistics</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+        </Rows>
+        <TableName>Statistics</TableName>
+        <TableHeaderColor>#0079B6</TableHeaderColor>
+        <ReportLocation>D:/Selenium_Edureka/Selenium-Workspace/NewTours_Application/test-output</ReportLocation>
+        <TableHeaderIcon>data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAMFBMVEUAAADT19yyuMKnrrmGkJ9we43////09fbIzNOcpLBlcYXp6+57hpaRmqi9wsve4eUG7Xd5AAAAAXRSTlMAQObYZgAAAuNJREFUeNrtmEFoE0EUhmeTXV0bI10F7UUoeqm3gAfxolLwKPbiQRQtqKUHD9GL5mTp3eLBg+RQU0pF9BKoiniaImJFSqNeFAQX2ouCdlFjWptujQW76e57M29mQBT2QQLZZD7+N/vmvT/LWBpppJHG/xSet/co+qVFAAy0Xtv3DJgBGDv2uR/6MkNOZHKaqwJmDnle28dwjCul0Pug2Hovr6fQiuWFauJnNrI8X/KLiYvODnIKZ0760OVsnQiYchFhl2okwNQEujOjFMA2fD1bHJID7EFROSzIAcOBCNAIZICzvrgir0oA9i5JSYe+GPA6kB2K6xtLI16BsVKZab32b7y0svutQMELwrmsCBTEBUAK2ONZXMFBSmfI9qEAp0DqLRwFdAQkwGkUcIXW3eoYwPZpAIcjgCy1wWKAD1TAJxiwdYgKWIIBdfKMcGHAMzJguQIC+ujzNoAAjilgCzMELCoAfkKAmimgqgBYhQC+IcBmhoBQz4FFgLwpoKEHiDLnFew3ZZqCTj0FURN62QU6NfoeVE0VjPcYKmCmt9EY4OsBIqu7E2xI98FFXxj5CJ0Ae+rtf3MTFTpaHiykp11kwNIspKBCV9ABphDQAavwWSiQAY0apEBhMN0AKzFzngx44kMKFCqiG9zEJh2A+MRurerNaPgLBwGQb2MWAbhUQBEBNLQAbXLCuR6aRbuL7ShxMuTQv//WBRLgXoApyNEUVNGi+E7yyu4R/J7epJTCpmm8LFcoCmqCum4ScnC5qK3vkwOGhXPhh9SmWP2ig8HCnIwQ3hFPpucyBRclo+1bUbx+c0E2Gw+IAeekw1UsISkg+SzNvoyPKOsdl4/35kdcwAiX9Le1eDXJsSI8LvRI0iSgBMB51LwFCyhxsVuP4usp6GHao7K8x697jZE3yfXzKibrcPw/pHVtXmo0Yz6q1O5cM4MFpgj481B2zXo8fK9nAX8/Fva8Oc3VaaSRRhp/PX4BU5Wbe0JL7eUAAAAASUVORK5CYII=</TableHeaderIcon>
+        <OSName>w</OSName>
+    </Table>
+    <Table>
+        <ColumnHeaders>
+            <ColumnHeader>
+                <Name>Time</Name>
+                <ColorCode>#5CB85C</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Test</Name>
+                <ColorCode>#5CB85C</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Case</Name>
+                <ColorCode>#5CB85C</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>TimeTaken(ms)</Name>
+                <ColorCode>#5CB85C</ColorCode>
+            </ColumnHeader>
+        </ColumnHeaders>
+        <Rows>
+            <Row>
+                <RowMeta>
+                    <STATUS>PASSED</STATUS>
+                    <BLOCKID>Book_Ticket1_findFlights</BLOCKID>
+                    <PACKAGEPATH>com.mindtree.main</PACKAGEPATH>
+                    <CLASSNAME>Book_Ticket1</CLASSNAME>
+                    <METHOD>findFlights</METHOD>
+                    <TIME>March 12 2018 12:32:055</TIME>
+                    <TIMETAKEN>28588</TIMETAKEN>
+                    <TableName>PASSED</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+            <Row>
+                <RowMeta>
+                    <STATUS>PASSED</STATUS>
+                    <BLOCKID>Book_Ticket1_loginPage</BLOCKID>
+                    <PACKAGEPATH>com.mindtree.main</PACKAGEPATH>
+                    <CLASSNAME>Book_Ticket1</CLASSNAME>
+                    <METHOD>loginPage</METHOD>
+                    <TIME>March 12 2018 12:32:051</TIME>
+                    <TIMETAKEN>3659</TIMETAKEN>
+                    <TableName>PASSED</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+        </Rows>
+        <TableName>Passed</TableName>
+        <TableHeaderColor>#009900</TableHeaderColor>
+        <TableHeaderIcon>data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAMFBMVEUAAACnrrnT19x7hpbp6+7////e4eWyuMJwe42Rmqj09facpLDIzNO9wstlcYWGkJ/F5vRlAAAAAXRSTlMAQObYZgAAAnRJREFUeNrtmD1oFEEUx99t7rxZo2HLwBkMgWAhyEnSChKwjVeoKRSSSkE0rtpYCF4EAykCR2qLkCCIQthOwSbBMoIWkqSSq/wAlTMql8Nc1nmTUTlnJzsz2yi8P8zkeMz85s17b2aWAJBIJBKJRCJ1qstyfG4g3uo0WK43EuQedVg8O8CNAOIgA2C6zrsMAP+warMCXImwb3TY8kkDu59MKLbJELy6CHsjNQv+/UixsUXoGRNTS7XULbxQ58NNgNti/mgttZD8t6qNXQZ2YYP/KE6lBzFpV9yBTeHXGYNSjl4ppvY18F+LDYwZpDFQTT0AH4VzJ0wO0/NeZVMPgB3BCKxWldEJdVDm7fHfxrsYAVZ3rkRWkqE02cJR3taS1uG5dPZgXOeAIeAgFiErA3MFPJQOzDnGoKsliym/5uZBURbTlFUMZgd+H/zzvBXmZS5NAax36NKvQkTSqCwmY8B2BDvShWHs3gM8s0oj7vfpn9PlhbAvsK6DJdEfwIk+wEuwAtzhLRY3wwcMIT+GVTtAjN2MuGAQ0K8bpwW0lzH+fNUiAq6DNQCavP3glGPoTtkB8A2TeGj3fonBAQAneWtF3cjpcwJMi3OIi8c1J8B3zJu3im8lOAHgOIYRKSuOAK8ifyw7ArbkYdrudwTArd0/p8EV8DXQvXWmV9o9cSoq7oBB7ArgDviC8X+XAQCfeKtkAewEkAv3HJFPeRIWSp8hE6D1JmWA5cc2Af5NQMKH8aD+EWgvmXgwr19uv9EWGnpAbAQ4qwecMgLs8Y41jADNqva7KTRL47DmCikMGdZB8+LVpOnr50L6ZwWJRCKRSKT/Qj8Bmud7IabJT18AAAAASUVORK5CYII=</TableHeaderIcon>
+        <OSName>w</OSName>
+    </Table>
+    <Table>
+        <ColumnHeaders>
+            <ColumnHeader>
+                <Name>Time</Name>
+                <ColorCode>#D9534F</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Test</Name>
+                <ColorCode>#D9534F</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>Case</Name>
+                <ColorCode>#D9534F</ColorCode>
+            </ColumnHeader>
+            <ColumnHeader>
+                <Name>TimeTaken(ms)</Name>
+                <ColorCode>#D9534F</ColorCode>
+            </ColumnHeader>
+        </ColumnHeaders>
+        <Rows>
+            <Row>
+                <RowMeta>
+                    <STATUS>FAILED</STATUS>
+                    <BLOCKID>Book_Ticket1_selectFlightPage</BLOCKID>
+                    <PACKAGEPATH>com.mindtree.main</PACKAGEPATH>
+                    <CLASSNAME>Book_Ticket1</CLASSNAME>
+                    <METHOD>selectFlightPage</METHOD>
+                    <TIME>March 12 2018 12:33:024</TIME>
+                    <TIMETAKEN>28</TIMETAKEN>
+                    <TableName>FAILED</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                    <ExceptionPage>hide</ExceptionPage>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+            <Row>
+                <RowMeta>
+                    <STATUS>FAILED</STATUS>
+                    <BLOCKID>Book_Ticket1_confirmationPage</BLOCKID>
+                    <PACKAGEPATH>com.mindtree.main</PACKAGEPATH>
+                    <CLASSNAME>Book_Ticket1</CLASSNAME>
+                    <METHOD>confirmationPage</METHOD>
+                    <TIME>March 12 2018 12:33:025</TIME>
+                    <TIMETAKEN>20</TIMETAKEN>
+                    <TableName>FAILED</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                    <ExceptionPage>hide</ExceptionPage>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+            <Row>
+                <RowMeta>
+                    <STATUS>FAILED</STATUS>
+                    <BLOCKID>Book_Ticket1_summaryPage</BLOCKID>
+                    <PACKAGEPATH>com.mindtree.main</PACKAGEPATH>
+                    <CLASSNAME>Book_Ticket1</CLASSNAME>
+                    <METHOD>summaryPage</METHOD>
+                    <TIME>March 12 2018 12:33:025</TIME>
+                    <TIMETAKEN>20</TIMETAKEN>
+                    <TableName>FAILED</TableName>
+                    <SHOW_SCREEN_SHOT_LINK>hide</SHOW_SCREEN_SHOT_LINK>
+                    <ExceptionPage>hide</ExceptionPage>
+                </RowMeta>
+                <fontWeight>normal</fontWeight>
+                <fontSize>0pt</fontSize>
+                <bgcolor>white</bgcolor>
+            </Row>
+        </Rows>
+        <TableName>Failed</TableName>
+        <TableHeaderColor>#D22722</TableHeaderColor>
+        <TableHeaderIcon>data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAMFBMVEUAAACcpLDT19y9wst7hpZlcYXp6+7///+yuMLe4eWnrrmGkJ+RmqjIzNP09fZwe40g71/eAAAAAXRSTlMAQObYZgAABClJREFUeNrtWF1oFFcU/rI/+Vk3zcY8FEEl0EI0D7qgIcZK2UKlvnVtkUKhEsQSpLbZBNonxSiKlhK77YNFXxq1kIfSGK2U0hISQyy0ARvFvBTEpVWSoOimTdb87E/vOXdms5Odnbk7eZ0De+/dk8x3vzn3/N0FXHHFFVdcccUV51LxSmS1ylfO8/5DoYqRVTpPOQC+EHKRtQCcF5/2NQDUJMSQsAbY94UNAax+Ba/x2zuprXdKEmgSw3KHJYMxoOHVUgDbaNgMSwZjW4DmSxdMn/e+T/sdg70Rr/SZAuyk4eVi3zJ8a2UT5XZH4T+VLNCne1HdSdudhTWDJgk6GsXy8UKAIWCY5s9gA3B9ULpss9j0cgGBCQTpL1UVdgCzDyRC5jCw8GdevQn4leaukB0A0o8l84Ye4Bc9bjwx1JUiUHQKc1djPKeEOe/LJZn+OfMKKQAgtVEachcw383LKkFghhZ7oQKAzD2ect8C/bxll/gSJ9NGEISNH0gZ+J2niysH+U1Cfn99VIEB8J48ikPGOE4nEWiDEsDyX2w9/yNdsVlzpiGzEDH1+0stNP7xoaTiJS7pawi+hNsqDCaA//p5da8gjHRnUgAYEA40xXv7+fgrIpozNSoCLN4QsfQPL8+RM/6mO1NcEQD+r4Q/neDlj9DCSCTjGfM8U6zag3EREWfSxNhz4OcFsv2n9bIGKRlRyEHxmeSzfJabKRVGVgCLFFbrecVvng2VCSCDiIvQ5zS8CScA2KEvliLOAFJvaYthOAPA/kY9JToEmP1IZgg4BUBORrNzAPZiZDudAujhU5d0CKCHz2LOIcARffFl0hFADTnwUqM1BSsAToXbu3UKsXIBvFFyovYXTCFm1hvYAHxHwwcAU9gA1MfKAwiSA3vCAFPIxjGbKA/g+3xLwxREXtmtDlAlnCecTwmSQhi5EWUAUU/fjq90FExhHzCuDHALaNPmPAWxf7ZREcAflfXUH9UUHE03gQ5FAJ/Wluab1ho6wUAStWoA6R54I+xE+cxCp7HYh3k1gE3cNAM/rKh4678Vj1HUUS5nngLHmSdr+HvUAI4C/9LcYax31HmoAayTTVmVoRpl2vXwUmiyUPOJGKpPFus2xNSOke82bxh1lfTstNopeBMm5WyWgjM3CJWL5+mkLGetKxjiovDux2IOqzAI0vOVEwgUcBBRkKLdv1YBeI3b9VVdobgwTZErhOwB6vpkg+0zvG9mECmaJ+0BuLEWCWHJqG5BmgzQa99kxckEvQlMVxvU42P4qVX8/+SCDYNaTgQjsqoUSLYH6ZjJOxQBNGuHW3QDnsNyWHcyCz/wRWRCwFYTB3mSbxlKM6jUEoJ5rYrZu3JWJgRzoXcI2AD4zO+nmjzl1Gp97Ru06mszd2sn7H7nCHQ8dH/ucsUVV1xxxZU1yP9D7gv8wNCEvAAAAABJRU5ErkJggg==</TableHeaderIcon>
+        <OSName>w</OSName>
+    </Table>
+    <ExceptionMeta>
+        <ErrorCode>Book_Ticket1_confirmationPage</ErrorCode>
+        <Description>java.lang.AssertionError: expected [Welcome: Mercury Tours] but found [Flight Confirmation: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mindtree.main.Book_Ticket1.confirmationPage(Book_Ticket1.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</Description>
+        <StackTrace>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)</StackTrace>
+        <Heading>Book_Ticket1(confirmationPage)</Heading>
+    </ExceptionMeta>
+    <ExceptionMeta>
+        <ErrorCode>Book_Ticket1_summaryPage</ErrorCode>
+        <Description>java.lang.AssertionError: expected [Welcome: Mercury Tours] but found [Book a Flight: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mindtree.main.Book_Ticket1.summaryPage(Book_Ticket1.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</Description>
+        <StackTrace>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)</StackTrace>
+        <Heading>Book_Ticket1(summaryPage)</Heading>
+    </ExceptionMeta>
+    <ExceptionMeta>
+        <ErrorCode>Book_Ticket1_selectFlightPage</ErrorCode>
+        <Description>java.lang.AssertionError: expected [Welcome: Mercury Tours] but found [Select a Flight: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mindtree.main.Book_Ticket1.selectFlightPage(Book_Ticket1.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</Description>
+        <StackTrace>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)</StackTrace>
+        <Heading>Book_Ticket1(selectFlightPage)</Heading>
+    </ExceptionMeta>
+    <ExceptionPage>hide</ExceptionPage>
+    <BuildSystemDetails>Build v2.0.8 - M1022639@A2ML15068 - java 1.8.0_102(Oracle Corporation) - Windows 8.1(amd64)</BuildSystemDetails>
+    <BuildSystemDetailBy>code</BuildSystemDetailBy>
+    <BuildVersion>Build v2.0.8</BuildVersion>
+    <OSName>w</OSName>
+</ReportData>

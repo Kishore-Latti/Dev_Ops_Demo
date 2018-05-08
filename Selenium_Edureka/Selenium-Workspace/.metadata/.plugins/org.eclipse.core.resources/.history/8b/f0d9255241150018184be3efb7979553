@@ -1,0 +1,59 @@
+package com.mindtree.launch;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+public class LaunchBrowser {
+	WebDriver driver;
+	public void launchpage(String browser , String url )
+	{
+		if (browser=="chrome")
+		{
+			driver = new ChromeDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+
+		}
+		else if (browser=="firefox")
+		{
+			// FirefoxProfile profile = new FirefoxProfile();
+			// profile.setPreference("network.proxy.type", 1);
+			// profile.setPreference("network.proxy.socks", "172.22.218.218");
+			// profile.setPreference("network.proxy.socks_port", 8085);
+			//ProfilesIni profile = new ProfilesIni();
+			//FirefoxProfile myprofile = profile.getProfile("seleProfile");
+			driver = new FirefoxDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			driver.manage().deleteAllCookies();
+			WebDriverWait wait = new WebDriverWait(driver, 10);      
+			Alert alert = wait.until(ExpectedConditions.alertIsPresent());     
+			alert.accept();
+		}
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:\\Selenium_Edureka\\Browser-Drivers\\geckodriver.exe");
+
+		LaunchBrowser launch = new LaunchBrowser();
+		launch.launchpage("firefox","https://www.paytm.com");
+	}
+
+}

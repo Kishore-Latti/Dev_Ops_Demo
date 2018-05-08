@@ -1,0 +1,36 @@
+package com.mindtree.launch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class LaunchBrowser {
+	static WebDriver driver;
+	public void launchpage(String browser , String url )
+	{
+		if (browser=="chrome")
+		{
+			driver = new ChromeDriver();
+			driver.get(url);
+			
+		}
+		else if (browser=="firefox")
+		{
+			
+			driver = new FirefoxDriver();
+			driver.get(url);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:\\Selenium_Edureka\\geckodriver-v0.9.0-win64\\geckodriver.exe");
+		LaunchBrowser launch = new LaunchBrowser();
+		launch.launchpage("chrome","https://www.paytm.com");
+	}
+
+}

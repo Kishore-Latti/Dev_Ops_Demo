@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cucumber-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cucumber-java-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cucumber-junit-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/cucumber-reporting-3.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/gherkin-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/junit-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/Selenium_Standalone_Server/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium_Edureka/CucumberJars/selenium-java-3.8.1/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

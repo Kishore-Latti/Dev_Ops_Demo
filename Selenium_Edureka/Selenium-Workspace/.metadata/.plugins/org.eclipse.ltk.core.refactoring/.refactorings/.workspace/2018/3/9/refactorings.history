@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;data.driven.framwework&apos; to &apos;Data_Driven_Framework&apos;&#x0D;&#x0A;- Original element: &apos;data.driven.framwework&apos;&#x0D;&#x0A;- Renamed element: &apos;data.driven.framwework&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;data.driven.framwework&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=data.driven.framwework" name="Data_Driven_Framework" references="true" stamp="1519988035194" version="1.0"/>
+</session>

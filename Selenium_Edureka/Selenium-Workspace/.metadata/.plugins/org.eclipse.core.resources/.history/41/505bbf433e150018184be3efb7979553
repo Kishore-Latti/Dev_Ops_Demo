@@ -1,0 +1,47 @@
+package com.mindtree.launch;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+
+public class LaunchBrowser {
+	static WebDriver driver;
+	public void launchpage(String browser , String url )
+	{
+		if (browser=="chrome")
+		{
+			driver = new ChromeDriver();
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			
+			
+		}
+		else if (browser=="firefox")
+		{
+			 Proxy p = new Proxy();
+			 p.setSocksProxy("172.22.218.218:8085");
+			 DesiredCapabilities cap = new DesiredCapabilities();
+			 cap.setCapability(CapabilityType.PROXY, p);
+			driver = new FirefoxDriver(cap);
+			driver.get(url);
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:\\Selenium_Edureka\\Browser-Drivers\\geckodriver.exe");
+		LaunchBrowser launch = new LaunchBrowser();
+		launch.launchpage("firefox","https://www.paytm.com");
+	}
+
+}

@@ -1,0 +1,98 @@
+package com.mindtree.testng;
+
+import java.io.File;
+import java.io.IOException;
+import java.sql.Driver;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.bcel.generic.Select;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Wait;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+import org.openqa.selenium.support.*;
+
+public class NewTest {
+
+	WebDriver driver;
+	LaunchBrowser launch = new LaunchBrowser();
+
+	@BeforeClass
+	public void launchPage() {
+		launch.launchpage("chrome", "http://newtours.demoaut.com");
+		driver = launch.getDriver();
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+	}
+	@BeforeTest
+	public void takeScreenshot(WebDriver driver)
+	{
+		//Convert web driver object to TakeScreenshot
+		        String date= "221";
+		        String Path = "D:\\Selenium_Edureka\\Screenshots\\S_"+date+".png";
+
+				TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+				//Call getScreenshotAs method to create image file
+
+				File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+				//Move image file to new destination
+
+				File DestFile=new File(Path);
+
+				//Copy file at destination
+
+				FileUtils.copyFile(SrcFile, DestFile);
+	}
+	
+	
+    @Test(priority=0)
+	public void loginPage()
+	{
+		driver.findElement(By.name("userName")).sendKeys("Kishan.03592");
+		driver.findElement(By.name("password")).sendKeys("mercury");
+		driver.findElement(By.name("login")).click();
+	}
+	
+	@Test(priority=23)
+	public void bookTicket() {
+		driver.findElement(By.cssSelector("input[value='oneway']")).click();
+		 driver.findElement(By.xpath("//select[@name='passCount']")).click();;
+		 driver.findElement(By.cssSelector("option[value='2']")).click();
+		 driver.findElement(By.xpath("//select[@name='fromPort']")).click();;
+		 driver.findElement(By.cssSelector("option[value='Frankfurt']")).click();
+		 driver.findElement(By.xpath("//select[@name='fromDay']")).click();;
+		 driver.findElement(By.cssSelector("option[value='25']")).click();
+		 driver.findElement(By.xpath("//select[@name='toPort']")).click();;
+		 driver.findElement(By.cssSelector("option[value='Paris']")).click();
+		 driver.findElement(By.xpath("//select[@name='airline']")).click();;
+		 driver.findElement(By.cssSelector("option[value='Blue Skies Airlines']")).click();
+		 driver.findElement(By.name("findFlights")).click();
+		
+		
+	/*	Actions aBuilder = new Actions(driver);
+		Action act = aBuilder.sendKeys(Keys.TAB).sendKeys("Pune").build();
+		act.perform();
+*/
+	}
+
+}
