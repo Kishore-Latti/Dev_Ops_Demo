@@ -1,5 +1,6 @@
 package automationFramework;
 
+import java.nio.file.Path;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,8 +14,12 @@ public class POM_TC {
 	
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","D:\\Selenium\\chromedriver.exe");
+		Path path = Path.of("").toAbsolutePath().getParent().getParent();
+		
+		String driverPath = path.toString() +"\\Browser-Drivers\\chromedriver.exe";
 
+		System.setProperty("webdriver.chrome.driver",driverPath);
+		
 		driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

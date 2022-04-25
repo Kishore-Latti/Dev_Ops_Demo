@@ -1,5 +1,6 @@
 package automation.framework;
 
+import java.nio.file.Path;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -19,10 +20,15 @@ public class POM_Test1 {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
+		
+		
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe");
+		Path path = Path.of("").toAbsolutePath().getParent().getParent();
+	
+		String driverPath = path.toString() +"\\Browser-Drivers\\chromedriver.exe";
+
+		System.setProperty("webdriver.chrome.driver",driverPath);
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -91,5 +97,5 @@ public class POM_Test1 {
 			e.printStackTrace();
 		}
 		
-	}
+	} 
 }

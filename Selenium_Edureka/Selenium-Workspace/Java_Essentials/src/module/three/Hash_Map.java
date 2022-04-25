@@ -17,14 +17,17 @@ public class Hash_Map {
 	      hmap.put(7, "Singh");
 	      hmap.put(49, "Ajeet");
 	      hmap.put(3, "Anuj");
+	      
+	      System.out.println(hmap.get(3));
 
 	      /* Display content using Iterator*/
 	      Set set = hmap.entrySet();
 	      Iterator iterator = set.iterator();
 	      while(iterator.hasNext()) {
 	         Map.Entry mentry = (Map.Entry)iterator.next();
-	         System.out.print("key is: "+ mentry.getKey() + " & Value is: ");
-	         System.out.println(mentry.getValue());
+//	         System.out.print("key is: "+ mentry.getKey() + " & Value is: ");
+//	         System.out.println(mentry.getValue());
+	         
 	      }
 	}
 

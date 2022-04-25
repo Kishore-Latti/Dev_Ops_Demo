@@ -25,6 +25,10 @@ public class Array_List {
 		
 		System.out.println(" Elements of list are" + al);
 		
+		for ( Object val : al ) {
+			System.out.println(" val" + val);
+		}
+		
 
 	}
 

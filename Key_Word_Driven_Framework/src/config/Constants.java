@@ -8,10 +8,12 @@ public class Constants {
 	// Declared as 'final', so that the value of this variable can be changed
 	// 'String' & 'int' are the data type for storing a type of value
 	public static final String URL = "http://www.store.demoqa.com";
-	public static final String Path_TestData = "D:\\Selenium_Edureka\\Selenium-Workspace\\Key_Word_Driven_Framework\\src\\dataEngine\\DataEngine.xlsx";
+	static String path = System.getProperty("user.dir");
+	
+	public static final String Path_TestData = path + "\\src\\dataEngine\\DataEngine.xlsx";
 	public static final String File_TestData = "DataEngine.xlsx";
-	public static final String Path_OR = "D:\\Selenium_Edureka\\Selenium-Workspace\\Key_Word_Driven_Framework\\src\\config\\OR.txt";
-	public static final String Path_Driver = "D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe";
+	public static final String Path_OR = path +  "\\src\\config\\OR.txt";
+	public static final String Path_Driver = "C:\\personal_repo\\Dev_Ops_Demo\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe";
 
 	// List of Data Sheet Column Numbers
 	public static final int Col_TestCaseID = 0;

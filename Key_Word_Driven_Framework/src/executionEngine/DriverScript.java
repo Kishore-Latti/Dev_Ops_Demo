@@ -31,13 +31,16 @@ public class DriverScript {
 	public static void main(String[] args) throws Exception {
 
 		String sPath = Constants.Path_TestData;
+		System.out.println(sPath);
 		String Path_OR = Constants.Path_OR;
+		System.out.println(Path_OR);
 		FileInputStream fs = new FileInputStream(Path_OR);
 		OR = new Properties(System.getProperties());
 		OR.load(fs);
 		ExcelUtils.setExcelFile(sPath);
 		DriverScript scripts = new DriverScript();
 		scripts.execute_TestCase();
+		
 	}
 
 	private void execute_TestCase() throws Exception {
