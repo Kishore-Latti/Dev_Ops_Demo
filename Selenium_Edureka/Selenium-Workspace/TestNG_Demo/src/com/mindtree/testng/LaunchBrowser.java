@@ -1,6 +1,7 @@
 package com.mindtree.testng;
 
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -24,7 +25,11 @@ public class LaunchBrowser {
 		{
 			ChromeOptions ops = new ChromeOptions();
 			ops.addArguments("--disable-notifications");
-			System.setProperty("webdriver.chrome.driver","D:\\Selenium_Edureka\\Browser-Drivers\\chromedriver.exe");
+			Path path = Path.of("").toAbsolutePath().getParent().getParent();
+			
+			String driverPath = path.toString() +"\\Browser-Drivers\\chromedriver.exe";
+			
+			System.setProperty("webdriver.chrome.driver",driverPath);
 			driver = new ChromeDriver(ops);
 			driver.get(url);
 			driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
@@ -37,7 +42,11 @@ public class LaunchBrowser {
 		else if (browser=="firefox")
 		{
 			try {
-				System.setProperty("webdriver.gecko.driver", "D:\\Selenium_Edureka\\Browser-Drivers\\geckodriver.exe");
+				Path path = Path.of("").toAbsolutePath().getParent().getParent();
+				
+				String driverPath = path.toString() +"\\Browser-Drivers\\geckodriver.exe";
+				
+				System.setProperty("webdriver.gecko.driver", driverPath);
 				driver = new FirefoxDriver();			
 				driver.get(url);
 				Runtime.getRuntime().exec("D:\\Selenium_Edureka\\autoit-v3\\Scripts\\Authentication.exe");
